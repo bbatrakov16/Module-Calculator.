@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module-Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- First font -->
+  </head>
+  <body>
+    <!-- Start -->
+    <h1>Different formulas for the area of a triangle</h1>
+    <p>
+        There are many formulas for finding the area of a triangle, which are proved mainly using theorems about sines and cosines, as well as using the Pythagorean theorem. 
+    </p>
+    <p>These formulas are very diverse, because you can find the area not only by knowing the height and base of the triangle, but also by using parameters such as sides, angles, heights, and even the radii of inscribed and circumscribed circles inside and around the triangle, respectively. Knowledge of these formulas can be useful in solving various geometric problems in which a limited number of parameters are given.</p>
+
+    <p><img src="images/Sine theorem.png" class="img-theorems-start">
+      <img src="images/Pythagorean theorem.jpg" class="img-theorems-start">
+    <img src="images/Cosine theorem.gif" class="img-theorems-start">
+</p>
+
+
+<p>Here are 6 main methods for finding the area of a triangle, which you can read in more detail below and check their functionality:<ul>
+    <li>By using the base and the height drawn to it</li>
+    <li>By using two sides and the angle between them</li>
+    <li>Heron's formula</li>
+    <li>By using 3 sides and the circumradius around the triangle</li>
+    <li>By using the semi-perimeter and radius of the inscribed circle in the triangle</li>
+    <li>Coordinate method</li>
+</ul></p>
+
+<br>
+
+<hr>
+
+<br>
+    <!-- Section of 1st triangle -->
+<h2>First method for finding area:</h2>
+    <!-- Img with parameters of 1st triangle-->
+
+    <div class="img1-and-param">
+      <p><img class="img1" src="Images/Triangle 1.png" /></p>
+      <div class="param-of-1-triangle">
+        <p class="formula1">A = 1/2 * a(h) * h</p>
+        <p>A - the area</p>
+        <p>h - the height</p>
+        <p>a(h) - base of the triangle</p>
+      </div>
+
+      <br />
+      <br />
+      <br />
+    </div>
+    <!-- Proving for area of 1st triangle -->
+
+    <h2>Proving:</h2>
+    
+      <div class="div-paralellogramm-img-1"><img src="images/Parallelogramm 1.png" class="paralellogramm-img-1" /></div>
+      <p>Let's draw a parallelogram and derive the formula for its area as follows:</p>
+      <p>
+      Let's divide it by heights. The formed figures are a rectangle and two equal right triangles. And we introduce the designations of the sides through a, b, h, x and y. And also the areas of the formed figures, respectively. Moreover, where only a and b are known quantities.</p>
+    
+
+    <p>Let us denote the areas of these figures accordingly. If we reconstruct the figure so that it turns out to be a rectangle (we can do this, because two rectangular triangles are equal along the leg and hypotenuse). Thus, the area of the rectangle will be equal to the product of h and (x + y). Where (x + y) = b according to the given drawing above.</p>
+    <p>
+
+    </p>
+    <p>We got the area of the parallelogram, which is actually expressed like this: A(paralellogramm) = b * h</p>
+
+    <br>
+
+    <br>
+
+    <div class="div-paralellogramm-img-2"><img src="images/Paralellogramm 2.png" class="paralellogramm-img-2"></div>
+    <p>After that we can draw the new paralellogramm and divide it diagonally.</p>
+
+    <p>Thanks to the properties of a parallelogram, whose opposite sides are equal in pairs, as well as the angles, we get two equal triangles (according to 1 characteristic, namely two equal sides and the angle between them, respectively).</p>
+
+    <p>From the equality of a triangle it follows that their areas are equal. Moreover, in total such areas will give the area of the parallelogram. Referring to these factors, we can say that A(triangle 1) or A(triangle 2) = A(paralellogramm) / 2, that means A(triangle) = 1 /2 * a(h) * h.</p>
+<br>
+
+
+<div class="div-triangle-1-js"><img src="images/Triangle 1 clean.png" class="triangle-1-js"></div>
+    <h2>Check your understanding of this formula:</h2>
+
+    <div class="div-input-h3"><h3>Input</h3></div>
+    <p>Enter the value of a(h): <input type="number" class="class-a-h-input" id="a-h-input"/></p>
+    <p>Enter the value of h: <input type="number" class="class-h-input" id="h-input"></p>
+    <p><button class="class-btn-calc-area-1" id="btn-calc-area-1">Calculate the Area</button></p>
+
+    <br>
+
+<div class="div-output-h3"><h3 >Output</h3></div>
+<p >The area of triangle (in cm^2) equals: <span id="output-area-1">----</span> </p>
+
+<br>
+
+<p class="span-btn-clean1">You can clean up all values and use it again: <button class="class-btn-clean-all-triangle1" id="btn-clean-all-triangle1">Clean up</button></p>
+
+    <div class="div-a-h" id="id-div-a-h">a(h)</div>
+    <div class="div-h" id="id-div-h">h</div>
+    <div class="div-A" id="id-div-A">A (cm^2)</div>
+
+  </body>
+</html>

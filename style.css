@@ -1,0 +1,170 @@
+/* Basic elements changes */
+
+html {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: url(images/Math-background.png);
+}
+
+body {
+  width: 1000px;
+  background-color: rgba(255, 255, 255, 0.89);
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 2px solid rgba(19, 25, 39, 1);
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  background-color: rgba(28, 82, 168, 0.825);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: "Exo 2", sans-serif;
+}
+
+hr {
+  border: 1px dashed rgba(19, 25, 39, 1);
+}
+
+h3 {
+  background: rgba(240, 150, 15, 0.5);
+}
+
+/* Images from Figma */
+
+.paralellogramm-img-1 {
+  float: left;
+  margin-right: 15px;
+}
+
+.img1 {
+  float: left;
+  margin-right: 15px;
+}
+
+.param-of-1-triangle {
+  font-size: 20px;
+}
+
+.img1-and-param {
+  background-color: rgba(255, 255, 255, 0.89);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  border: 2px solid rgba(28, 82, 168, 1);
+}
+
+.formula1 {
+  display: inline; /* to make the border */
+  font-size: 30px;
+  color: rgba(28, 82, 168, 1);
+  border: 1px solid rgba(28, 82, 168, 1);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Internet images */
+.img-theorems-start {
+  height: 230px;
+}
+
+.div-paralellogramm-img-1 {
+  position: relative;
+  bottom: 27px;
+}
+
+/* Parallelogramm img */
+.paralellogramm-img-2 {
+  float: right;
+  margin-right: 15px;
+}
+
+.div-paralellogramm-img-2 {
+  position: relative;
+  bottom: 15px;
+}
+
+/* Img for showing new values that a person enters */
+.triangle-1-js {
+  float: right;
+  margin-right: 15px;
+}
+
+.div-triangle-1-js {
+  position: relative;
+  top: 30px;
+}
+
+/* Moving letters in the image */
+.div-a-h {
+  position: relative;
+  left: 700px;
+  bottom: 200px;
+  color: rgba(28, 82, 168, 1);
+  font-size: 30px;
+}
+
+.div-h {
+  position: relative;
+  left: 675px;
+  bottom: 380px;
+  color: rgba(28, 82, 168, 1);
+  font-size: 30px;
+}
+
+.div-A {
+  position: relative;
+  left: 700px;
+  bottom: 340px;
+  color: rgba(28, 82, 168, 1);
+  font-size: 30px;
+}
+
+/* Inputs and buttons*/
+.class-a-h-input {
+  width: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid rgba(240, 150, 15, 1);
+}
+
+.class-h-input {
+  width: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid rgba(240, 150, 15, 1);
+}
+
+.class-btn-calc-area-1 {
+  height: 30px;
+  font-size: 15px;
+  color: rgba(28, 82, 168, 1);
+  font-weight: 700;
+  border: 1px solid rgba(19, 25, 39, 1);
+}
+
+.class-btn-clean-all-triangle1 {
+  height: 30px;
+  font-size: 15px;
+  color: rgba(19, 25, 39, 1);
+  font-weight: 700;
+}
+
+/* For h3 */
+.div-input-h3 {
+  width: 440px;
+}
+
+.div-output-h3 {
+  width: 440px;
+}
